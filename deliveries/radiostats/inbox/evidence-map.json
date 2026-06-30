@@ -1,0 +1,61 @@
+{
+  "personas": [
+    {
+      "name": "T. (administrador técnico)",
+      "role": "administrador técnico de streaming",
+      "primary": true
+    },
+    {
+      "name": "C. (coordinador de marketing)",
+      "role": "coordinador de marketing",
+      "primary": true
+    },
+    {
+      "name": "D. (director de emisora)",
+      "role": "director de emisora",
+      "primary": true
+    }
+  ],
+  "pains": [
+    {
+      "id": "monitoreo-multi-panel",
+      "source": "administradorTecnico.md",
+      "persona": "administrador técnico de streaming"
+    },
+    {
+      "id": "sin-historial-centralizado",
+      "source": "administradorTecnico.md",
+      "persona": "administrador técnico de streaming"
+    },
+    {
+      "id": "deteccion-reactiva-fallos",
+      "source": "administradorTecnico.md",
+      "persona": "administrador técnico de streaming"
+    },
+    {
+      "id": "datos-audiencia-desactualizados",
+      "source": "coordinadorMarketing.md",
+      "persona": "coordinador de marketing"
+    },
+    {
+      "id": "datos-llegan-tarde",
+      "source": "coordinadorMarketing.md",
+      "persona": "coordinador de marketing"
+    },
+    {
+      "id": "reportes-manuales-clientes",
+      "source": "coordinadorMarketing.md",
+      "persona": "coordinador de marketing"
+    },
+    {
+      "id": "vista-consolidada-inexistente",
+      "source": "directorEmisora.md",
+      "persona": "director de emisora"
+    },
+    {
+      "id": "perdida-oportunidades-comerciales",
+      "source": "directorEmisora.md",
+      "persona": "director de emisora"
+    }
+  ]
+}

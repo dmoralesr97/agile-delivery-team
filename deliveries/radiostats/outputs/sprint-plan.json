@@ -1,0 +1,17 @@
+{
+  "sprint": 1,
+  "sprint_goal": "El equipo entrega visibilidad operativa en tiempo real y alertas proactivas de fallos para que el Administrador Técnico y el Director de Emisora operen la transmisión desde un panel unificado sin depender de reportes reactivos.",
+  "capacity": 20,
+  "committed": 13,
+  "stories": ["US-01", "US-02", "US-03"],
+  "deferred": [
+    {
+      "id": "US-04",
+      "reason": "Supera la capacidad restante del sprint (7 pts disponibles tras comprometer US-01, US-02, US-03). Se posterga al Sprint 2."
+    },
+    {
+      "id": "US-05",
+      "reason": "Depende de US-04 (dependencia explícita). No entrega valor verificable sin US-04 completada. Se posterga al Sprint 2 junto con US-04."
+    }
+  ]
+}
